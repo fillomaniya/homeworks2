@@ -6,12 +6,13 @@
 
 body {
     background-color: #020A18;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
-    width: 1146px;
-    margin: 0 auto;
+    padding-left: calc(50% - 573px);
+    padding-right: calc(50% - 573px);
+
 }
 
 .header {
@@ -35,9 +36,13 @@ body {
 }
 
 .main__flex {
+    margin-top: 160px;
+    margin-bottom: 197px;
     display: flex;
-    justify-content: space-between;
-    gap: 250px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
 }
 
 .subtitle {
@@ -64,21 +69,26 @@ body {
     opacity: 0.7;
 }
 
+.buttons {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
 .button {
     text-decoration: none;
     background-color: #3a68B8;
-    font-size: 20px;
     font-weight: 600;
-    padding: 15px 30px;
     color: white;
-    border-radius: 10px;
+    padding: 15px 30px;
+    border-radius: 5px;
     height: 57px;
     margin-right: 20px;
     border: 1px solid transparent;
 }
 
 .main__right, .main__left {
-    width: 48%;;
+    width: 48%;
 }
 
 .button:hover {
@@ -92,9 +102,13 @@ body {
     margin-bottom: 200px;
 }
 
-.flex {
+.logos {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
 }
 
 .grid__content {
@@ -143,3 +157,40 @@ body {
     grid-row: span 2;
     gap: 60px;
 }
+
+@media (max-width: 1024px) {
+    .conteiner {
+        padding-left: calc(50% - 376px);
+        padding-right: calc(50% - 376px);
+    }
+    .subtitle {
+        font-size: 16px;
+    }
+    .title {
+        font-size: 48px;
+    }
+    .main__flex {
+        flex-wrap: wrap;
+    }
+    .logos {
+        max-width: 650px;
+        margin: auto;
+    }
+    .main {
+        margin-bottom: 120px;
+    }
+    .quad_big {
+        grid-column: span 1;
+        grid-row: span 1;
+        gap: 30px;
+    }
+    .grid__content {
+        grid-template-columns: repeat(1, 362px);
+        gap: 32px;
+    }
+    .quad_big img {
+        width: 90px;
+    }
+}
+
+
