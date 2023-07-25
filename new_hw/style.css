@@ -1,0 +1,59 @@
+@charset "UTF-8";
+.nav__link {
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+}
+
+.part {
+  color: #8A2BE2;
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+}
+.nav__link {
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.content__item {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #000;
+}
+
+.block-0 {
+  line-height: 32px;
+  font-size: 26px;
+  font-weight: 400;
+  font-style: italic;
+  color: #8A2BE2;
+  border: 1px solid #000;
+}
+
+.block-1 {
+  line-height: 100px;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  color: #8A2BE2;
+  border: 1px solid #000;
+}
+
+/* произвольный комментарий *//*# sourceMappingURL=style.css.map */

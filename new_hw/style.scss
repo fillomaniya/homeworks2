@@ -1,0 +1,44 @@
+@import 'vars';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: $widthSite;
+}
+
+.part {
+    color: $colorText;
+}
+
+.nav {
+    display: flex;
+    gap: $padGap;
+    &__link {
+        text-decoration: none;
+        @extend %font;
+    }
+}
+
+.content {
+    @include flex();
+    gap: $padGap;
+    &__item {
+        width: calc($widthSite / 4);
+        height: 200px;
+        border: $borderWidth;
+    }
+}
+
+.block-0 {
+    @include parameters(32px, 26px, 400, italic);
+}
+
+.block-1 {
+    @include parameters(100px, 12px, 300, normal);
+}
+
+
+/* произвольный комментарий */

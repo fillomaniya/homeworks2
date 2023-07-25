@@ -1,0 +1,25 @@
+$widthSite: 1200px;
+$colorText: #8A2BE2;
+$padGap: 16px;
+$borderWidth: 1px solid #000;
+
+@mixin flex() {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+%font {
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+@mixin parameters($lh, $fsz, $fw, $fs) {
+    line-height: $lh;
+    font-size: $fsz;
+    font-weight: $fw;
+    font-style: $fs;
+    color: $colorText;
+    border: $borderWidth;
+}
