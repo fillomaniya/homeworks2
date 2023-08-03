@@ -920,6 +920,150 @@ label {
   cursor: pointer;
 }
 
+.reg__main {
+  display: flex;
+  gap: 128px;
+  padding: 64px 230px;
+}
+
+.reg__info {
+  width: 652px;
+  padding: 0 16px;
+}
+
+.list__type {
+  margin-top: 22px;
+}
+
+.list__info {
+  list-style-type: none;
+  color: #000;
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.reg__submit {
+  display: block;
+  width: 168px;
+  height: 50px;
+  display: flex;
+  background-color: #F16D7F;
+  color: #4A4A4A;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  background-color: #fff;
+  border: 1px solid #A4A4A4;
+  cursor: pointer;
+}
+
+.reg__submit:hover {
+  background-color: #F16D7F;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.reg__join {
+  padding: 17px 30px;
+}
+
+.list__info:before {
+  content: url(../images/seawale.svg);
+}
+
+.first__string {
+  color: #000;
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 22px;
+}
+
+.second__string {
+  color: #000;
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 22px;
+}
+
+.product-selection {
+  padding-top: 96px;
+  padding-bottom: 128px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-selection__info {
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+}
+.product-selection__info__name {
+  padding-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.product-selection__info__name-title {
+  color: #222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.product-selection__info__name-input {
+  width: 360px;
+  padding: 13px 0 16px 17.14px;
+  border: 1px solid #A4A4A4;
+}
+.product-selection__info__name-submit {
+  padding: 10px 12px;
+  width: 102px;
+  color: #4A4A4A;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  background-color: #fff;
+  border: 1px solid #A4A4A4;
+  cursor: pointer;
+}
+.product-selection__info__name-submit:hover {
+  background-color: #F16D7F;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.reg__checkbox {
+  display: flex;
+  gap: 20px;
+  color: #000;
+  font-family: "Lato";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.reg__etc {
+  display: block;
+  width: 360px;
+  color: #B1B1B1;
+  font-family: "Lato";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
 .footer {
   background: #222222;
   min-height: 79px;
